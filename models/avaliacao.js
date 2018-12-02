@@ -12,8 +12,8 @@ const avaliacaoSchema = new Schema({
             default: Date.now,
             required: true
           },
-        observacao: String  
-        peso: Number
+        observacao: String,  
+        peso: Number,
         altura: Number,
         imc: Number,
         massaMagra: Number,
